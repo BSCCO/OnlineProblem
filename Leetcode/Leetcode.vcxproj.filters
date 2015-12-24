@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\LintCode">
+      <UniqueIdentifier>{d3793a3a-36c3-4d80-80e3-f13e412f6b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode">
+      <UniqueIdentifier>{6f0ce256-3008-48cc-b4c0-66ac57f3c86c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lengthOfLastWord.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="twoSum.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse-words-in-a-string.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="replace-blank.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="max-subarray.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="count-1-in-binary.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="add-two-numbers.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulb Switcher.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LintCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
