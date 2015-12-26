@@ -21,3 +21,6 @@ void testCountOnes();
 
 ListNode *addLists(ListNode *l1, ListNode *l2);
 void testAddList();
+
+ListNode *reverse(ListNode *head);
+void testReverse();

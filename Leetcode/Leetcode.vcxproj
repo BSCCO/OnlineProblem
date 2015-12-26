@@ -126,6 +126,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max-subarray.cpp" />
     <ClCompile Include="replace-blank.cpp" />
+    <ClCompile Include="reverse-linked-list.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="reverse-words-in-a-string.cpp" />
   </ItemGroup>

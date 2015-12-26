@@ -20,6 +20,7 @@ using std::vector;
 using std::cout;
 using std::endl;
 
+//¶¯Ì¬¹æ»®£¬max_sum[i]=max( max_sum[i-1],sum(nums[0]to nums[i]) )
 int maxSubArray(vector<int> nums) {
 	int max_sum = -2147483647-1;
 	int sum = 0;

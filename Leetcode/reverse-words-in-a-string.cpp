@@ -17,28 +17,28 @@
 using std::string;
 using std::deque;
 
+//先把string中的单词提取出来，放入一个deque<string>中，再重新组合成新的string
 string reverseWords(string s) {
 	if (s.empty()) {
 		return s;
 	}
 	deque<string> word;
-	string w;
-	for (int i = 0; i < s.size(); ++i) {
-		while (s[i] == ' ') {
+	for (string::size_type i = 0; i < s.size(); ++i) {		
+		while (s[i] == ' ') {	//找到第一个字母
 			++i;
 		}
-		if (i == s.size()) {
+		if (i == s.size()) {	//避免越界
 			break;
 		}
-		while (s[i] != ' '&&i < s.size()) {
+		string w;
+		while (s[i] != ' '&&i < s.size()) {		//提取单词
 			w += s[i];
 			++i;
 		}
-		word.push_front(w);
-		w.clear();
+		word.push_front(w);		//逆序放入deque中
 	}
 	string rev_s;
-	for (int i = 0; i != word.size(); ++i) {
+	for (string::size_type i = 0; i != word.size(); ++i) {	//从deque中取出单词组成新的string
 		rev_s = rev_s + word[i] + ' ';
 	}
 	rev_s.pop_back();

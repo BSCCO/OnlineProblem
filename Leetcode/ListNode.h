@@ -10,4 +10,7 @@ struct ListNode {
 };
 
 ListNode *creatListNode(std::vector<int> nums);
+
 void printListNode(ListNode *list);
+
+void deleteListNode(ListNode *list);

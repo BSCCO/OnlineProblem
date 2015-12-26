@@ -1,13 +1,12 @@
 #include "ListNode.h"
 #include<vector>
 
-using std::vector;
 
-ListNode * creatListNode(vector<int> nums)
+ListNode * creatListNode(std:: vector<int> nums)
 {
 	ListNode *head = new ListNode(nums[0]);
 	ListNode *p = head;
-	for (vector<int>::size_type i = 1; i < nums.size(); ++i) {
+	for (std::vector<int>::size_type i = 1; i < nums.size(); ++i) {
 		p->next = new ListNode(nums[i]);
 		p = p->next;
 	}
@@ -19,9 +18,22 @@ void printListNode(ListNode * list)
 	if (list == nullptr) {
 		return;
 	}
-	while (list->next) {
+	while (list) {
 		std::cout << list->val << "->";
 		list = list->next;
 	}
 	std::cout << "null" << std::endl;
 }
+
+void deleteListNode(ListNode * head)
+{
+	ListNode *p = head;
+	while (head) {
+		p = head;
+		head = head->next;
+		free(p);
+	}
+	return;
+}
+
+

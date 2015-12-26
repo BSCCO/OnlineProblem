@@ -51,6 +51,9 @@
     <ClCompile Include="Bulb Switcher.cpp">
       <Filter>源文件\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="reverse-linked-list.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LintCode.h">

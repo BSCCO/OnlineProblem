@@ -5,8 +5,9 @@
 using namespace std;
 
 int main() {
-	testBulbSwitch();
+	//testBulbSwitch();
 	//testCountOnes();
+	testReverse();
 	system("Pause");
 	return 0;
 }
