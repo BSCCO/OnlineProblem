@@ -7,7 +7,8 @@ using namespace std;
 int main() {
 	//testBulbSwitch();
 	//testCountOnes();
-	testReverse();
+	//testReverse();
+	testFindMin();
 	system("Pause");
 	return 0;
 }

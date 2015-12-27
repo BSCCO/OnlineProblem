@@ -121,6 +121,7 @@
     <ClCompile Include="add-two-numbers.cpp" />
     <ClCompile Include="Bulb Switcher.cpp" />
     <ClCompile Include="count-1-in-binary.cpp" />
+    <ClCompile Include="find-minimum-in-rotated-sorted-array.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="main.cpp" />

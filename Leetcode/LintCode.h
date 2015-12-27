@@ -24,3 +24,6 @@ void testAddList();
 
 ListNode *reverse(ListNode *head);
 void testReverse();
+
+int findMin(vector<int> &num);
+void testFindMin();
