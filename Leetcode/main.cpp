@@ -5,10 +5,7 @@
 using namespace std;
 
 int main() {
-	//testBulbSwitch();
-	//testCountOnes();
-	//testReverse();
-	testFindMin();
+	testSearchMatrix();
 	system("Pause");
 	return 0;
 }

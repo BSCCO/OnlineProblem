@@ -27,3 +27,6 @@ void testReverse();
 
 int findMin(vector<int> &num);
 void testFindMin();
+
+int searchMatrix(vector<vector<int> > &matrix, int target);
+void testSearchMatrix();

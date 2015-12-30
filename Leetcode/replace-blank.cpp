@@ -46,8 +46,6 @@ using std::endl;
 
 void testReplaceBlank() {
 	char string[] = "   ";
-	int length = 3;
-	
-	cout << replaceBlank(string, length) << endl;
+	cout << replaceBlank(string, strlen(string)) << endl;
 	cout << string << endl;
 }

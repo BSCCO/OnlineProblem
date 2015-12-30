@@ -41,7 +41,7 @@ string reverseWords(string s) {
 	for (string::size_type i = 0; i != word.size(); ++i) {	//从deque中取出单词组成新的string
 		rev_s = rev_s + word[i] + ' ';
 	}
-	rev_s.pop_back();
+	rev_s.pop_back();	//去掉尾部的空格
 	return rev_s;
 }
 

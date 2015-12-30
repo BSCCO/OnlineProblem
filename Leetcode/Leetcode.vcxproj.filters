@@ -57,6 +57,12 @@
     <ClCompile Include="find-minimum-in-rotated-sorted-array.cpp">
       <Filter>源文件\LintCode</Filter>
     </ClCompile>
+    <ClCompile Include="search-a-2d-matrix-ii.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="implement-queue-by-two-stacks.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LintCode.h">

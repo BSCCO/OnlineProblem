@@ -20,7 +20,7 @@ using std::vector;
 using std::cout;
 using std::endl;
 
-//动态规划，max_sum[i]=max( max_sum[i-1],sum(nums[0]to nums[i]) )
+//动态规划，max_sum[i]=max_sum[i-1]or sum(max_sum[i-1] to nums[i])
 int maxSubArray(vector<int> nums) {
 	int max_sum = -2147483647-1;
 	int sum = 0;

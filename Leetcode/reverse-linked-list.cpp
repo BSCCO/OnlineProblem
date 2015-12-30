@@ -8,8 +8,9 @@
 //挑战
 //在原地一次翻转完成
 
-#include"LintCode.h"
+#include"ListNode.h"
 #include<iostream>
+#include<vector>
 
 ListNode *reverse(ListNode *head) {
 	if (head == nullptr)
@@ -27,7 +28,7 @@ ListNode *reverse(ListNode *head) {
 }
 
 void testReverse() {
-	vector<int> nums = { 1,2,3 };
+	std::vector<int> nums = { 1,2,3 };
 	ListNode *list=creatListNode(nums);
 	printListNode(list);
 	list=reverse(list);
