@@ -6,3 +6,4 @@
 void testTwoSum();
 void testLengthOfLastWord();
 void testBulbSwitch();
+void testSolveNQueens();

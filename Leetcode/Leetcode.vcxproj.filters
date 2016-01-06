@@ -63,6 +63,9 @@
     <ClCompile Include="implement-queue-by-two-stacks.cpp">
       <Filter>源文件\LintCode</Filter>
     </ClCompile>
+    <ClCompile Include="N-Queens.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LintCode.h">

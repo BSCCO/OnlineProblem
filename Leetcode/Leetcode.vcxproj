@@ -127,6 +127,7 @@
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="max-subarray.cpp" />
+    <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="replace-blank.cpp" />
     <ClCompile Include="reverse-linked-list.cpp" />
     <ClCompile Include="search-a-2d-matrix-ii.cpp" />
