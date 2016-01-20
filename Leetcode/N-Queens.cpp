@@ -6,6 +6,7 @@
 #include<iostream>
 #include<vector>
 #include<string>
+#include<ctime>
 
 using std::vector;
 using std::string;
@@ -18,9 +19,6 @@ void init(vector<bool>&);
 vector<string> converPositionToBoard(const vector<int> &position);
 
 vector<vector<string>> solveNQueens(int n) {
-	if (n < 3) {
-		return vector<vector<string>>{};
-	}
 	vector<vector<string>> result;
 	vector<int> queensPosition;	//用于记录王后所在位置，queenPosition[i]表示第i行的王后在第几列
 	queensPosition.push_back(0);
@@ -98,7 +96,10 @@ vector<string> converPositionToBoard(const vector<int> &position) {
 }
 
 void testSolveNQueens() {
-	vector<vector<string>> b = solveNQueens(11);
+	time_t start, end1,end2;
+	start = clock();
+	vector<vector<string>> b = solveNQueens(9);
+	end1 = clock();
 	for (auto r : b) {
 		for (auto l : r) {
 			std::cout << l << std::endl;
@@ -106,5 +107,7 @@ void testSolveNQueens() {
 		std::cout << std::endl
 			<< std::endl;
 	}
+	end2 = clock();
 	std::cout << "共" << b.size() << "种放法。" << std::endl;
+	std::cout << "slove花费" << end1 - start << "ms, print花费" << end2 - end1 << "ms." << std::endl;
 }

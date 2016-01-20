@@ -120,6 +120,8 @@
   <ItemGroup>
     <ClCompile Include="add-two-numbers.cpp" />
     <ClCompile Include="Bulb Switcher.cpp" />
+    <ClCompile Include="construct-binary-tree-from-preorder-and-inorder-traversal.cpp" />
+    <ClCompile Include="Container With Most Water.cpp" />
     <ClCompile Include="count-1-in-binary.cpp" />
     <ClCompile Include="find-minimum-in-rotated-sorted-array.cpp" />
     <ClCompile Include="implement-queue-by-two-stacks.cpp" />
@@ -131,6 +133,7 @@
     <ClCompile Include="replace-blank.cpp" />
     <ClCompile Include="reverse-linked-list.cpp" />
     <ClCompile Include="search-a-2d-matrix-ii.cpp" />
+    <ClCompile Include="TreeNode.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="reverse-words-in-a-string.cpp" />
   </ItemGroup>
@@ -138,6 +141,7 @@
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="LintCode.h" />
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

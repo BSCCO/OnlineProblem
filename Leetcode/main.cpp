@@ -3,7 +3,7 @@
 #include"LeetCode.h"
 
 int main() {
-	testSolveNQueens();
+	testBuildTree();
 	system("Pause");
 	return 0;
 }

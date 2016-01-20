@@ -66,6 +66,15 @@
     <ClCompile Include="N-Queens.cpp">
       <Filter>源文件\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="Container With Most Water.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="construct-binary-tree-from-preorder-and-inorder-traversal.cpp">
+      <Filter>源文件\LintCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LintCode.h">
@@ -75,6 +84,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
