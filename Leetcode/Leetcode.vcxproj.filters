@@ -75,6 +75,12 @@
     <ClCompile Include="TreeNode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Implement Stack using Queues.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Self Crossing.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LintCode.h">

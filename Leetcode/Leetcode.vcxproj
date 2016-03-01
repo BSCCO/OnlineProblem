@@ -124,6 +124,7 @@
     <ClCompile Include="Container With Most Water.cpp" />
     <ClCompile Include="count-1-in-binary.cpp" />
     <ClCompile Include="find-minimum-in-rotated-sorted-array.cpp" />
+    <ClCompile Include="Implement Stack using Queues.cpp" />
     <ClCompile Include="implement-queue-by-two-stacks.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="ListNode.cpp" />
@@ -133,6 +134,7 @@
     <ClCompile Include="replace-blank.cpp" />
     <ClCompile Include="reverse-linked-list.cpp" />
     <ClCompile Include="search-a-2d-matrix-ii.cpp" />
+    <ClCompile Include="Self Crossing.cpp" />
     <ClCompile Include="TreeNode.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="reverse-words-in-a-string.cpp" />

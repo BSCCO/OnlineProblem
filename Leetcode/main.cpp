@@ -3,7 +3,7 @@
 #include"LeetCode.h"
 
 int main() {
-	testBuildTree();
+	testIsSelfCrossing();
 	system("Pause");
 	return 0;
 }

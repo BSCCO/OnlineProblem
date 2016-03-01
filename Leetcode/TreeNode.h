@@ -1,5 +1,7 @@
 #pragma once
 #include<iostream>
+#include<vector>
+using std::vector;
 class TreeNode {
 public:
 	int val;
@@ -23,3 +25,4 @@ void inVisit(TreeNode *head) {
 	std::cout << head->val << " ";
 	inVisit(head->right);
 }
+TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder);
